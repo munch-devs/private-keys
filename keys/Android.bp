@@ -16,6 +16,11 @@ android_app_certificate {
 }
 
 android_app_certificate {
+    name: "com.android.appsearch.apk.certificate.override",
+    certificate: "com.android.appsearch.apk.certificate.override",
+}
+
+android_app_certificate {
     name: "com.android.appsearch.certificate.override",
     certificate: "com.android.appsearch.certificate.override",
 }
@@ -76,6 +81,11 @@ android_app_certificate {
 }
 
 android_app_certificate {
+    name: "com.android.hardware.authsecret.certificate.override",
+    certificate: "com.android.hardware.authsecret.certificate.override",
+}
+
+android_app_certificate {
     name: "com.android.hardware.biometrics.face.virtual.override",
     certificate: "com.android.hardware.biometrics.face.virtual.override",
 }
@@ -93,6 +103,16 @@ android_app_certificate {
 android_app_certificate {
     name: "com.android.hardware.cas.override",
     certificate: "com.android.hardware.cas.override",
+}
+
+android_app_certificate {
+    name: "com.android.hardware.neuralnetworks.certificate.override",
+    certificate: "com.android.hardware.neuralnetworks.certificate.override",
+}
+
+android_app_certificate {
+    name: "com.android.hardware.rebootescrow.certificate.override",
+    certificate: "com.android.hardware.rebootescrow.certificate.override",
 }
 
 android_app_certificate {
@@ -161,6 +181,11 @@ android_app_certificate {
 }
 
 android_app_certificate {
+    name: "com.android.nfcservices.certificate.override",
+    certificate: "com.android.nfcservices.certificate.override",
+}
+
+android_app_certificate {
     name: "com.android.ondevicepersonalization.certificate.override",
     certificate: "com.android.ondevicepersonalization.certificate.override",
 }
@@ -173,6 +198,11 @@ android_app_certificate {
 android_app_certificate {
     name: "com.android.permission.certificate.override",
     certificate: "com.android.permission.certificate.override",
+}
+
+android_app_certificate {
+    name: "com.android.profiling.certificate.override",
+    certificate: "com.android.profiling.certificate.override",
 }
 
 android_app_certificate {
