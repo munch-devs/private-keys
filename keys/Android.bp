@@ -121,6 +121,11 @@ android_app_certificate {
 }
 
 android_app_certificate {
+    name: "com.android.hardware.drm.clearkey.certificate.override",
+    certificate: "com.android.hardware.drm.clearkey.certificate.override",
+}
+
+android_app_certificate {
     name: "com.android.hardware.dumpstate.certificate.override",
     certificate: "com.android.hardware.dumpstate.certificate.override",
 }
